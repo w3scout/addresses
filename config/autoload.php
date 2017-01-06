@@ -20,5 +20,6 @@ ClassLoader::addNamespaces(array
  */
 ClassLoader::addClasses(array
 (
-	'w3scouts\addresses\Address' => 'system/modules/addresses/classes/Address.php',
+	'w3scouts\addresses\Address'        => 'system/modules/addresses/classes/Address.php',
+	'w3scouts\addresses\UpgradeHelper'  => 'system/modules/addresses/classes/UpgradeHelper.php',
 ));

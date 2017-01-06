@@ -1,0 +1,36 @@
+{
+  "name": "w3scouts/addresses",
+  "description":"A Contao module to add more then one address to a member",
+  "keywords":["contao", "addresses", "addressbook", "members"],
+  "type": "contao-module",
+  "homepage":"https://github.com/w3scouts/addresses.git",
+  "license":"LGPL-3.0+",
+  "authors":[
+    {
+      "name":"Darko Selesi",
+      "email":"hallo@w3scouts.com",
+      "homepage":"http://w3scouts.com",
+      "role":"Developer"
+    }
+  ],
+  "support":{
+    "issues":"https://github.com/w3scouts/addresses/issues"
+  },
+  "require": {
+    "contao/core": ">=3.5,<4-dev",
+    "contao-community-alliance/composer-installer": "*"
+  },
+  "autoload": {
+    "classmap": [""]
+  },
+  "replace": {
+    "contao-legacy/addresses": "*"
+  },
+  "extra": {
+    "contao": {
+      "sources": {
+        "": "system/modules/addresses"
+      }
+    }
+  }
+}

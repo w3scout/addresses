@@ -15,5 +15,5 @@
 
 if(class_exists('\\w3scouts\\addresses\\UpgradeHelper'))
 {
-    \w3scouts\addresses\UpgradeHandler::run();
+    \w3scouts\addresses\UpgradeHelper::run();
 }

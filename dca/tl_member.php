@@ -37,6 +37,6 @@ $GLOBALS['TL_DCA']['tl_member']['config']['ctable'][] = 'tl_address';
 $GLOBALS['TL_DCA']['tl_member']['list']['operations']['addresses'] = array
 (
 	'label'               => &$GLOBALS['TL_LANG']['tl_member']['addresses'],
-	'href'                => 'table=tl_addresses',
+	'href'                => 'table=tl_address',
 	'icon'                => 'system/modules/addresses/assets/addressbook.png',
 );
